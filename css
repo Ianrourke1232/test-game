@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ff6347;
+}
+
+#game-area {
+    width: 300px;
+    height: 500px;
+    background-color: #87ceeb;
+    position: relative;
+    margin: 20px auto;
+    border: 2px solid #000;
+}
+
+#player {
+    width: 50px;
+    height: 50px;
+    background-color: #228b22;
+    position: absolute;
+    bottom: 0;
+    left: 125px;
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+#score, #tokcoin {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+#game-over {
+    font-size: 1.5em;
+    color: #ff0000;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#rules {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+}
+
+#rules h2 {
+    font-size: 1.5em;
+    color: #ff6347;
+}
+
+#rules ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#rules ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+#rules button {
+    background-color: #ff6347;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #game-area {
+        width: 250px;
+        height: 400px;
+    }
+
+    #player {
+        width: 40px;
+        height: 40px;
+    }
+
+    #score, #tokcoin {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 8px 15px;
+    }
+}
