@@ -1,3 +1,4 @@
+/* Basic Styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
@@ -51,6 +52,7 @@ button {
     cursor: pointer;
 }
 
+/* Rules Display */
 #rules {
     position: absolute;
     top: 20px;
@@ -61,7 +63,6 @@ button {
     border-radius: 10px;
     width: 80%;
     max-width: 350px;
-    display: block;
 }
 
 #rules h2 {
@@ -85,25 +86,4 @@ button {
     font-size: 1.2em;
     padding: 10px 20px;
     cursor: pointer;
-}
-
-@media (max-width: 600px) {
-    #game-area {
-        width: 250px;
-        height: 400px;
-    }
-
-    #player {
-        width: 40px;
-        height: 40px;
-    }
-
-    #score, #tokcoin {
-        font-size: 1.2em;
-    }
-
-    button {
-        font-size: 1em;
-        padding: 8px 15px;
-    }
 }
